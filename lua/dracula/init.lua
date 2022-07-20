@@ -4,7 +4,7 @@ local M = {}
 
 local DEFAULT_COLORS = {
   bg = "#000000",
-  fg = "#F8F8F2",
+  fg = "#FFFFFF",
   selection = "#44475A",
   comment = "#6272A4",
   red = "#FF5555",
@@ -12,7 +12,7 @@ local DEFAULT_COLORS = {
   yellow = "#F1FA8C",
   green = "#50fa7b",
   purple = "#BD93F9",
-  cyan = "#8BE9FD",
+  cyan = "#DB71D6",
   pink = "#FF79C6",
   bright_red = "#FF6E6E",
   bright_green = "#69FF94",
@@ -25,8 +25,8 @@ local DEFAULT_COLORS = {
   visual = "#3E4452",
   gutter_fg = "#4B5263",
   nontext = "#3B4048",
-  white = "#ABB2BF",
-  black = "#191A21",
+  white = "#FFFFFF",
+  black = "#000000",
 }
 
 local colors = vim.tbl_deep_extend('force', DEFAULT_COLORS, vim.g.dracula_colors or {})
