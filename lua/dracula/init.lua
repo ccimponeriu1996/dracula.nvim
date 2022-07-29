@@ -114,7 +114,7 @@ M.apply = function()
 
 	highlight("Cursor", nil, nil, "reverse", nil)
 	highlight("CursorColumn", nil, colors.black, "reverse", nil)
-	highlight("CursorLineNr", colors.fg, colors.black, "bold", nil)
+	highlight("CursorLineNr", colors.fg, nil, "bold", nil)
 
 	if(vim.g.dracula_transparent_bg == true)then
 		highlight("SignColumn", nil, nil, nil, nil)
@@ -124,7 +124,7 @@ M.apply = function()
 
 	highlight("Conceal", colors.comment, nil, nil, nil)
 	highlight("CursorColumn", nil, colors.black, nil, nil)
-	highlight("CursorLine", nil, colors.selection, nil, nil)
+	highlight("CursorLine", nil, "1D1C22", nil, nil)
 	highlight("ColorColumn", nil, colors.selection, nil, nil)
 
 	highlight("StatusLine", colors.white, colors.black, nil, nil)
