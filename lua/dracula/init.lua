@@ -3,7 +3,7 @@
 local M = {}
 
 local DEFAULT_COLORS = {
-  bg = "#000410",
+  bg = "#080A1E",
   fg = "#FFFFFF",
   selection = "#44475A",
   comment = "#585858",
